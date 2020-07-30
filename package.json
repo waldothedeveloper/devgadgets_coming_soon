@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "devgadgets",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "The technology blog that developers and technology enthusiasts love",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Waldo Lavaut contact@devgadgets.com",
   "dependencies": {
     "@tailwindcss/ui": "^0.4.0",
     "css-purge": "^3.1.8",
