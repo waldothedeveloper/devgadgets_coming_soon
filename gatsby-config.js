@@ -1,11 +1,40 @@
+const path = require("path")
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Dev Gadgets`,
+    description: `The #1 gadgets resource for developers and technology enthusiasts.`,
+    author: `@waldothedeveloper`,
+    copyright: `Copyright © 2020 Dev Gadgets. All rights reserved`,
+    siteUrl: `https://devgadgets.com`,
+    keywords: [
+      `Technology Gadgets`,
+      `Gadgets`,
+      `Programming`,
+      `Programming books`,
+      `Programming courses`,
+      `Software Engineer`,
+      `Web Developer`,
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-postcss`,
+    {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint:
+          "https://waldolavaut.us10.list-manage.com/subscribe/post?u=22377aca679801284569b9bce&amp;id=5596b856f1",
+        timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -18,17 +47,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `dev gadgets`,
+        short_name: `devgadgets`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/devgadgets-icon-black.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
