@@ -35,7 +35,7 @@ const ThankYouForSubscribing = () => {
             </span>
             <br />
             If you don't see our welcome email in your inbox, please check your
-            Spam folde. Once you'll open it mark it as not-spam. This will
+            Spam folder. Once you'll open it mark it as not-spam. This will
             ensure you will receive our future newsletters. Peace!
           </p>
         </div>

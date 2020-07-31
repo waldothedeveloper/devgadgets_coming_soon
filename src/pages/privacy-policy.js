@@ -136,8 +136,21 @@ const PrivacyPolicy = () => {
               By using this website you consent to this policy.
             </p>
             <h3>About Us</h3>
-            <p>Name: DevGadgets</p>
-            <p>email: contact@devgadgets.io</p>
+            <p>
+              Name: <span className="text-teal-500">DevGadgets</span>
+            </p>
+            <button href={`mailto:contact@devgadgets.io`}>
+              <span className="text-gray-500">email: {` `}</span>
+              <a
+                style={{ color: "#0694a2" }}
+                target="_blank"
+                rel="noreferrer"
+                href={`mailto:contact@devgadgets.io`}
+                className="font-semibold hover:underline"
+              >
+                contact@devgadgets.io
+              </a>
+            </button>
 
             <h3>Why we value your privacy</h3>
             <p>
@@ -225,9 +238,15 @@ const PrivacyPolicy = () => {
               We take complaints very seriously. If you have any reason to
               complain about the ways we handle your privacy, please contact us
               by email at{" "}
-              <span className="text-teal-400 font-semibold">
+              <a
+                style={{ color: "#0694a2" }}
+                target="_blank"
+                rel="noreferrer"
+                href={`mailto:contact@devgadgets.io`}
+                className="font-semibold hover:underline"
+              >
                 contact@devgadgets.io
-              </span>
+              </a>
               .
             </p>
 
