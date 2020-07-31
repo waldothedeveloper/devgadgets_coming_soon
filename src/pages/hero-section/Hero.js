@@ -25,16 +25,16 @@ const Hero = () => {
           <div className="pt-12 flex flex-col">
             <div className="flex flex-col items-center justify-center">
               <motion.p
-                initial={{ y: 26 * 0.6 }}
+                initial={{ y: 26 * 1.6 }}
                 animate={{ y: 0 }}
-                transition={{ ease: "easeOut", duration: 0.6 }}
+                transition={{ ease: "easeOut", duration: 2.2 }}
                 className="text-xl md:text-2xl font-semibold text-gray-700 sm:leading-none"
               >
                 Coming soon in 2020!
               </motion.p>
 
               <motion.h2
-                initial={{ y: -26 * 0.6 }}
+                initial={{ y: -26 * 1.6 }}
                 animate={{ y: 0 }}
                 transition={{
                   ease: "easeOut",
