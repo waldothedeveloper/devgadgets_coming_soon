@@ -34,8 +34,9 @@ const ThankYouForSubscribing = () => {
               🚀
             </span>
             <br />
-            Until then, stay safe, eat healthy and share quality time with
-            family and friends!
+            If you don't see our welcome email in your inbox, please check your
+            Spam folde. Once you'll open it mark it as not-spam. This will
+            ensure you will receive our future newsletters. Peace!
           </p>
         </div>
       </div>
