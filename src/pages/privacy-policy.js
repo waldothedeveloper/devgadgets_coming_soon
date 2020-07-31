@@ -137,7 +137,7 @@ const PrivacyPolicy = () => {
             </p>
             <h3>About Us</h3>
             <p>Name: DevGadgets</p>
-            <p>email: contact@devgadgets.com</p>
+            <p>email: contact@devgadgets.io</p>
 
             <h3>Why we value your privacy</h3>
             <p>
@@ -226,7 +226,7 @@ const PrivacyPolicy = () => {
               complain about the ways we handle your privacy, please contact us
               by email at{" "}
               <span className="text-teal-400 font-semibold">
-                contact@devgadgets.com
+                contact@devgadgets.io
               </span>
               .
             </p>
