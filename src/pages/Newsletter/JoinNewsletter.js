@@ -86,14 +86,14 @@ const JoinNewsletter = () => {
         <div className="lg:w-0 lg:flex-1">
           <div className="flex items-center">
             <h2
-              className="text-2xl leading-9 font-bold tracking-tight text-gray-50 sm:text-4xl sm:leading-10"
+              className="ml-2 md:ml-0 text-2xl leading-9 font-bold tracking-tight text-gray-50 sm:text-4xl sm:leading-10"
               id="newsletter-headline"
             >
               Sign up for our newsletter
             </h2>
           </div>
 
-          <p className="mt-3 max-w-lg text-lg leading-6 text-gray-300">
+          <p className="ml-2 md:ml-0 mt-3 max-w-lg text-lg leading-6 text-gray-300">
             Subscribe to get a sneak peak of our awesome weekly articles, then
             twiddle your thumbs, it's good luck!{` `}
             <span role="img" aria-label="smart face with glasses">
@@ -101,7 +101,7 @@ const JoinNewsletter = () => {
             </span>
           </p>
         </div>
-        <div className="mt-8 lg:mt-0 lg:ml-8 mx-3">
+        <div className="mt-8 lg:mt-0 lg:ml-8 mx-1">
           <form
             className="sm:flex"
             onSubmit={handleSubmit}
