@@ -94,7 +94,7 @@ const JoinNewsletter = () => {
           </div>
 
           <p className="ml-2 md:ml-0 mt-3 max-w-lg text-lg leading-6 text-gray-300">
-            Subscribe to get a sneak peak of our awesome weekly articles, then
+            Subscribe to get a sneak peek of our awesome weekly articles, then
             twiddle your thumbs, it's good luck!{` `}
             <span role="img" aria-label="smart face with glasses">
               😎
